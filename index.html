@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>ToDo</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <link rel="stylesheet" href="css/todo.css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="./dist/js/jquery-3.2.0.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="header">
+    <div class="header-cont">
+      <h1>Odprto Kodni ToDo Seznam</h1>
+    </div>
+  </div>
+  <div class="container">
+
+    <div class="projects">
+      <h5>Projekti</h5>
+      <div class="project-cont">
+        <button id="proj-1" class="proj-btn">
+            <div class="circle"> </div><h7>Projekt 1</h7>
+        </button>
+
+        <div class="project">
+          <button id="proj-2" class="proj-btn">
+            <div class="circle"> </div><h7>Projekt 2</h7>
+        </button>
+        </div>
+        <div class="project" >
+          <button id="new-project">
+            <div class="circle"> </div><h7>New Project</h7>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="todo-cont">
+      <div class="todo-header">
+        <h4> PROJECT 1 </h4>
+      </div>
+      <div class="todos">
+
+        <table>
+          <tbody>
+
+            <tr id ="task-1">
+              <td class="input">
+                <input type="radio">
+              </td>
+              <td class="todo-name"><h6>todo 1</h6></td>
+              <td class="todo-date"><h6>DUE</h6></td>
+            </tr>
+            <tr id="new-task-tr">
+              <td class="input">
+              </td>
+              <td class="todo-name new"><button id="new-task"><h6>New Task</h6></button></td>
+              <td class="todo-date"><h6</h6></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="./dist/js/site.js"></script>
+</body>
+</html>
